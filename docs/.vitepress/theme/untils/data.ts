@@ -60,9 +60,29 @@ export const NAV_DATA: NavData[] = [
     title: '自建私域',
     items: [
       {
-        icon: 'http://47.243.239.166:5280/favicon.ico',
+        icon: 'https://47.243.239.166/favicon.ico',
         title: 'FutBot生产环境',
         link: 'http://47.243.239.166:5280'
+      },
+      {
+        icon: 'https://avatars.githubusercontent.com/u/22225832?s=280&v=4',
+        title: 'FutBot生产Portainer',
+        link: 'http://47.243.239.166:9000/'
+      },
+      {
+        icon: 'https://avatars.githubusercontent.com/u/22225832?s=280&v=4',
+        title: 'FutBot测试Portainer',
+        link: 'http://dev.daojinobb.eu.org:9000/'
+      },
+      {
+        icon: '	https://dozzle.dev/logo.svg',
+        title: 'FutBot生产主节点日志',
+        link: 'http://47.243.239.166:52268/'
+      },
+      {
+        icon: 'https://dozzle.dev/logo.svg',
+        title: 'FutBot测试节点日志',
+        link: 'http://dev.daojinobb.eu.org:52268/'
       }
     ]
   },
