@@ -54,10 +54,10 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     <!-- <template #layout-top>
       <notice />
     </template> -->
-    <!-- <template #layout-bottom>
-      <bsz />
-    </template> -->
-    <SpeedInsights />
+    <template #layout-bottom>
+      <!-- <bsz /> -->
+      <SpeedInsights />
+    </template>
   </DefaultTheme.Layout>
 </template>
 
