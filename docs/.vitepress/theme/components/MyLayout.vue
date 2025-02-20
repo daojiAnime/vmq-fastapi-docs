@@ -8,6 +8,8 @@ import { nextTick, provide } from 'vue'
 import backtotop from "./backtotop.vue"
 import notice from "./notice.vue"
 import bsz from "./bsz.vue"
+// Vercel 分析插件
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 
 const { isDark } = useData()
 
@@ -56,6 +58,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
     <!-- <template #layout-bottom>
       <bsz />
     </template> -->
+    <SpeedInsights />
   </DefaultTheme.Layout>
 </template>
 

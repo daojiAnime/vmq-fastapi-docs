@@ -30,7 +30,6 @@ import fluidborder from "./components/fluidborder.vue" //流体边框仅用于�
 // 不蒜子
 import { inBrowser } from 'vitepress'
 
-
 export default {
   extends: DefaultTheme,
 
