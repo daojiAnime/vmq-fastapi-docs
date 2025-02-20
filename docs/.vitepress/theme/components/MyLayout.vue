@@ -9,8 +9,7 @@ import backtotop from "./backtotop.vue"
 import notice from "./notice.vue"
 import bsz from "./bsz.vue"
 // Vercel 分析插件
-import { SpeedInsights } from '@vercel/speed-insights/vue';
-
+import { SpeedInsights } from '@vercel/speed-insights/vue'
 const { isDark } = useData()
 
 const enableTransitions = () =>
