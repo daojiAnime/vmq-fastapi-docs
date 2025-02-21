@@ -60,7 +60,7 @@ export const NAV_DATA: NavData[] = [
     title: '自建私域',
     items: [
       {
-        icon: 'https://47.243.239.166/favicon.ico',
+        icon: '/icons/vben.png',
         title: 'FutBot生产环境',
         link: 'http://47.243.239.166:5280'
       },
