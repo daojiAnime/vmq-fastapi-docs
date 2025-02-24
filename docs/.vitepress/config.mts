@@ -27,9 +27,21 @@ export default defineConfig({
         ]
       },
       {
-        text: '项目文档',
+        text: '部署文档',
         items: [
           { text: '部署', link: '/vmq-deploy' },
+        ]
+      },
+      {
+        text: 'API文档',
+        items: [
+          { text: 'API文档', link: '/api-docs' }
+        ]
+      },
+      {
+        text: '开发文档',
+        items: [
+          { text: '前端镜像构建文档', link: '/develop/frontend-image' }
         ]
       }
     ],
