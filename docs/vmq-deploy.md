@@ -45,7 +45,7 @@ docker compose exec vmq-backend uv run app/initial_demo_data.py
 
 ## 服务验证
 
-可以访问前端地址http://localhost:5173 检查服务功能。
+可以访问前端地址`http://localhost:5173` 检查服务功能。
 
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
