@@ -29,7 +29,7 @@ export default defineConfig({
       {
         text: '项目文档',
         items: [
-          { text: '项目文档', link: '/project-docs' }
+          { text: '部署', link: '/vmq-deploy' },
         ]
       }
     ],
