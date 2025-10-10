@@ -62,27 +62,27 @@ export const NAV_DATA: NavData[] = [
       {
         icon: '/icons/vben.png',
         title: 'FutBot生产环境',
-        link: 'http://47.243.239.166:5280'
+        link: 'https://futbot.daojinobb.eu.org'
       },
+      // {
+      //   icon: 'https://avatars.githubusercontent.com/u/22225832?s=280&v=4',
+      //   title: 'FutBot生产Portainer',
+      //   link: 'http://47.243.239.166:9000/'
+      // },
       {
         icon: 'https://avatars.githubusercontent.com/u/22225832?s=280&v=4',
-        title: 'FutBot生产Portainer',
-        link: 'http://47.243.239.166:9000/'
-      },
-      {
-        icon: 'https://avatars.githubusercontent.com/u/22225832?s=280&v=4',
-        title: 'FutBot测试Portainer',
-        link: 'http://dev.daojinobb.eu.org:9000/'
+        title: 'FutBot Backend Portainer',
+        link: 'http://18.171.136.70:9000/'
       },
       {
         icon: '	https://dozzle.dev/logo.svg',
-        title: 'FutBot生产主节点日志',
-        link: 'http://47.243.239.166:52268/'
+        title: 'FutBot Middle 日志',
+        link: 'http://54.90.166.76:8080/'
       },
       {
         icon: 'https://dozzle.dev/logo.svg',
-        title: 'FutBot测试节点日志',
-        link: 'http://dev.daojinobb.eu.org:52268/'
+        title: 'FutBot Backend 日志',
+        link: 'http://18.171.136.70:8080/'
       }
     ]
   },
