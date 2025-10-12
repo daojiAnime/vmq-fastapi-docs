@@ -77,7 +77,7 @@ export const NAV_DATA: NavData[] = [
       {
         icon: '	https://dozzle.dev/logo.svg',
         title: 'FutBot Middle 日志',
-        link: 'http://54.90.166.76:8080/'
+        link: 'http://54.91.96.95:8080/'
       },
       {
         icon: 'https://dozzle.dev/logo.svg',
