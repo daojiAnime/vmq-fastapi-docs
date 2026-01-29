@@ -64,6 +64,26 @@ export const NAV_DATA: NavData[] = [
         title: 'FutBot生产环境',
         link: 'https://futbot.daojinobb.eu.org'
       },
+      {
+        icon: 'https://nezha.daojinobb.eu.org:34569/apple-touch-icon.png',
+        title: 'Nezha 主服务器监控',
+        link: 'http://nezha.daojinobb.eu.org:34569'
+      },
+      {
+        icon: 'http://bk-nezha.daojinobb.eu.org:34569/apple-touch-icon.png',
+        title: 'Nezha 节点服务器监控',
+        link: 'http://bk-nezha.daojinobb.eu.org:34569'
+      },
+      {
+        icon: 'http://35.177.216.215:23001/icon.svg',
+        title: 'Uptime Kuma 监控GRPC服务',
+        link: 'http://35.177.216.215:23001/dashboard'
+      },
+      {
+        icon: 'https://s1.sentry-cdn.com/_static/203e3c253b6187d9b543b68ccc88b010/sentry/images/favicon.png',
+        title: 'Sentry 错误监控',
+        link: 'https://daoji-studio.sentry.io/organizations/daoji-studio/issues/?project=4510791496892416&statsPeriod=14d'
+      },
       // {
       //   icon: 'https://avatars.githubusercontent.com/u/22225832?s=280&v=4',
       //   title: 'FutBot生产Portainer',
