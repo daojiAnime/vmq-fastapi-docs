@@ -65,19 +65,19 @@ export const NAV_DATA: NavData[] = [
         link: 'https://futbot.daojinobb.eu.org'
       },
       {
-        icon: 'https://nezha.daojinobb.eu.org:34569/apple-touch-icon.png',
+        icon: '/apple-touch-icon.png',
         title: 'Nezha 主服务器监控',
         link: 'http://nezha.daojinobb.eu.org:34569'
       },
       {
-        icon: 'http://bk-nezha.daojinobb.eu.org:34569/apple-touch-icon.png',
+        icon: '/apple-touch-icon.png',
         title: 'Nezha 节点服务器监控',
         link: 'http://bk-nezha.daojinobb.eu.org:34569'
       },
       {
-        icon: 'http://35.177.216.215:23001/icon.svg',
+        icon: '/icon.svg',
         title: 'Uptime Kuma 监控GRPC服务',
-        link: 'http://35.177.216.215:23001/dashboard'
+        link: 'http://35.177.216.215:23001'
       },
       {
         icon: 'https://s1.sentry-cdn.com/_static/203e3c253b6187d9b543b68ccc88b010/sentry/images/favicon.png',
@@ -95,7 +95,7 @@ export const NAV_DATA: NavData[] = [
         link: 'http://18.171.136.70:9000/'
       },
       {
-        icon: '	https://dozzle.dev/logo.svg',
+        icon: 'https://dozzle.dev/logo.svg',
         title: 'FutBot Middle 日志',
         link: 'https://webdz.daojinobb.eu.org/'
       },
